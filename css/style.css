@@ -110,10 +110,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 30%;
   border: var(--light-color) 4px dotted;
   border-radius:100% ;
+  animation: spin 1s linear 0s infinite;
 }
 #showcase .profile_pic img{
   border-radius: 100%;
+  animation: spin 1s linear 0s infinite reverse;
 }
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}  
+@keyframes spin2 {
+  to {
+    transform: rotate(360deg);
+  }
+} 
 
 .profile-description {
   /* border: 1px solid red; */

@@ -1,10 +1,19 @@
 .grid-container{
-  grid-gap: 1.2rem;
+  grid-gap: .2rem;
   grid-template-columns: 1fr;
+  display: block;
 }
-.skatepic , .skatepic2{
-  /* display: none; */
+.skatepic ,.musicpic1,.musicpic2 ,.diapic,.diapic1{
+  width: 300px;
+}
+.skatepic2{
+  display: none;
 }
 video{
   width: 300px;
+}
+.article{
+  grid-gap: .2rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
