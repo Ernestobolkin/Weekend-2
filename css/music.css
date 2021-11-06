@@ -179,3 +179,37 @@ box-shadow: 5px 5px 15px 5px rgba(0,0, 0,.29);
   background-position: center;
   position: absolute;
 }
+.text2 span {
+  position: relative;
+  color: blue;
+}
+.text2 span::before {
+  content: "";
+  position: absolute;
+  background: rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  bottom: 30px;
+  left: 25px;
+  transform: rotate(45deg);
+  display: none;
+}
+.text2 span::after {
+  content: "AARP (formerly called the American Association of Retired Persons) is a United States–based interest group focusing on issues affecting those over the age of fifty ";
+  background: rgb(240, 240, 240);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 5px;
+  left: 0;
+  bottom:32px;
+  line-height: 20px;
+  width: 205px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  display: none;
+}
+.text2 span:hover::before,
+.text2 span:hover::after{
+  display: block;
+}

@@ -17,3 +17,10 @@ video{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
+.text2 span{
+  color: black;
+}
+.text2 span:hover::before,
+.text2 span:hover::after{
+  display: none;
+}

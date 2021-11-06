@@ -121,11 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }  
-@keyframes spin2 {
-  to {
-    transform: rotate(360deg);
-  }
-} 
+
 
 .profile-description {
   /* border: 1px solid red; */
