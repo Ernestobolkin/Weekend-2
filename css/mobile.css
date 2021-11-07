@@ -2,3 +2,6 @@
   grid-template-columns: 1fr;
   grid-gap: 1.2rem;
 }
+.text span ::after{
+  content: "AARP (formerly called the American Association of Retired Persons) is a United States–based interest group focusing on issues affecting those over the age of fifty ";
+}

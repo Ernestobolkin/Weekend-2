@@ -168,17 +168,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0, 0,.29);
   color: #f5f3f4;
   font-size: 19px;
 }
-.video-container{
-  position: relative;
-}
-.video-container:before{
-  content: '';
-  top: 0;
-  left: 0;
-  background-image: url(/Portfolio-copy/img/Flickr.jpeg);
-  background-position: center;
-  position: absolute;
-}
+
 .text2 span {
   position: relative;
   color: blue;
@@ -212,4 +202,13 @@ box-shadow: 5px 5px 15px 5px rgba(0,0, 0,.29);
 .text2 span:hover::before,
 .text2 span:hover::after{
   display: block;
+}
+.dark-mode  #navbar  {
+  background-color: var(--light-color);
+}
+.dark-mode #showcase {
+  background-color: var(--darkmode-color);
+}
+.dark-mode .card{
+  color: var(--light-white);
 }

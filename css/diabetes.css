@@ -172,3 +172,12 @@ section img {
   color: #f5f3f4;
   font-size: 19px;
 }
+.dark-mode  #navbar  {
+  background-color: var(--light-color);
+}
+.dark-mode #showcase {
+  background-color: var(--darkmode-color);
+}
+.dark-mode .card{
+  color: var(--light-white);
+}

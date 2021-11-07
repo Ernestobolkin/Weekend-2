@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   --dark-color:#082032;
   --light-color:#334756;
   --light-white:#e5e5e5;
+  --darkmode-color:#747474;
 }
 
 /* Navigation bvar */
@@ -109,12 +110,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3rem;
   width: 30%;
   border: var(--light-color) 4px dotted;
+  border-bottom: 4px dotted transparent;
+  border-top: 4px dotted transparent;
   border-radius:100% ;
-  animation: spin 1s linear 0s infinite;
+  animation: spin 3s linear 0s infinite;
 }
 #showcase .profile_pic img{
   border-radius: 100%;
-  animation: spin 1s linear 0s infinite reverse;
+  animation: spin 3s linear 0s infinite reverse;
 }
 @keyframes spin {
   to {
@@ -140,6 +143,7 @@ text-shadow: 2px 2px 2px var(--orange-color);
 .first-para span{
   font-size: 2rem;
   text-shadow: 1px 1px 1px var(--black-color);
+  margin-top: 1.5rem;
 
 }
 
@@ -194,4 +198,13 @@ article a:hover{
 opacity: 0.8;
 transition: all ease 0.35s;
 border: 2px dashed var(--light-color);
+}
+.dark-mode  #navbar  {
+  background-color: var(--light-color);
+}
+.dark-mode #showcase {
+  background-color: var(--darkmode-color);
+}
+.dark-mode .card{
+  color: var(--light-white);
 }
