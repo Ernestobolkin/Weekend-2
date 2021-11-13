@@ -147,6 +147,7 @@ text-shadow: 2px 2px 2px var(--orange-color);
 
 }
 
+
 /* articles cards */
 #home-articles .cardscontainer{
   display: grid;
@@ -164,6 +165,9 @@ text-shadow: 2px 2px 2px var(--orange-color);
   padding: 1rem;
   box-shadow: 5px 5px 15px 5px rgba(0,0, 0,.29);
 
+}
+.card:hover{
+  transform: scale(1.02);
 }
 footer{
   width: 100%;
@@ -193,11 +197,6 @@ article a{
 border: 2px solid var(--dark-color);
 padding: 0 10px;
 border-radius: 20px;
-}
-article a:hover{
-opacity: 0.8;
-transition: all ease 0.35s;
-border: 2px dashed var(--light-color);
 }
 .dark-mode  #navbar  {
   background-color: var(--light-color);
